@@ -1636,14 +1636,6 @@ p {
     .lead {
         font-size: 21px
     }
-    .carousel-inner>.item>a>img,
-    .carousel-inner>.item>img,
-    .img-responsive,
-    .thumbnail a>img,
-    .thumbnail>img {
-        max-width: 50%;
-        margin: auto;
-    }
 }
 
 .small,
@@ -7899,6 +7891,17 @@ button.close {
 @media (max-width:767px) {
     .visible-xs-inline-block {
         display: inline-block !important
+    }
+}
+
+@media (max-width:768px) {
+    .carousel-inner>.item>a>img,
+    .carousel-inner>.item>img,
+    .img-responsive,
+    .thumbnail a>img,
+    .thumbnail>img {
+        max-width: 50%;
+        margin: auto;
     }
 }
 
